@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(255, 255, 255), rgb(219, 135, 195));
+  }
+  
+  #noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    margin-top: 75px;
+  }
+  
+  #yesButton {
+    position: absolute;
+    margin-right: 200px;
+    margin-top: 75px;
+  }
+  
+  .header_text {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e91e63;
+  }
+  
+  .text {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(208, 71, 196);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .btn {
+    background-color: #ff4081;
+    color: white;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 3px rgb(85, 82, 84);
+    
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+    color: #fc00e7;
+    cursor: pointer
+  }
+  
+  .gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    color: white;
+    margin-left: 50%;
+  }
+  p a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.25;
+  }
+  .whenyouarefree {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e91e63;
+  }
+
+h3 { 
+  padding: 10px; 
+  margin: -10px; 
+  border: 1px #e91e63; 
+  border-radius: 12px; 
+  font-size: 16px;
+  background-color: #ff4081;
+  margin-bottom: -275px;
+  position: absolute;
+}
+
