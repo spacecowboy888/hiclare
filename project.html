@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+
+      <link rel="stylesheet" href="style.css" />
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device=width, initial-scale=1"> 
+      <title>Hiclare</title>
+  
+    </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Do you wanna go out with me?</h1>
+      </div>
+    <div class="gif_container">
+        <img src="images/ezgif-5-621c24ebd6.gif"
+          alt="qoobee"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+
+        <script>
+          function nextPage() {
+            window.location.href = "Yes.html";
+          }
+
+          function moveButton() {
+            var x =
+              Math.random() *
+              (window.innerWidth -
+                document.getElementById("noButton").offsetWidth);
+            var y =
+              Math.random() *
+              (window.innerHeight -
+                document.getElementById("noButton").offsetHeight);
+            document.getElementById("noButton").style.left = `${x}px`;
+            document.getElementById("noButton").style.top = `${y}px`;
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
